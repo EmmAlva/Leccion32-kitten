@@ -1,0 +1,18 @@
+body{
+	background: url(../assets/img/maxresdefault.jpg) no-repeat bottom center ;
+}
+
+@media (min-width: 465px) {
+	body{
+		background: url(../assets/img/dawn.png) no-repeat bottom center;
+		background-position: center;
+		background-size: cover;
+	}	
+}
+@media (min-width: 650px){
+	body{
+		background-image: url(../assets/img/landscape.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+}
